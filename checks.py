@@ -171,3 +171,5 @@ if __name__ == '__main__':
         demo()
     else:
         regression()
+        import boundary_checks
+        boundary_checks.regression()
